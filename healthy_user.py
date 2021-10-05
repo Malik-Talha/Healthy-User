@@ -48,8 +48,8 @@ def start_alarm(water_time, eyes_time, water_alarm_file, eyes_alarm_file):
 
         clrscr()
         # print time remaining
-        print(f"Drink Water after:\t\t{(water_time-water_time_up)//60} minutes")
-        print(f"Move eyes after:\t\t{(eyes_time-eyes_time_up)//60} minutes")
+        print(f"Drink Water after:\t\t{(water_time-water_time_up)//60}:{60 - (int(water_time_up)%60)} minutes")
+        print(f"Move eyes after:\t\t{(eyes_time-eyes_time_up)//60}:{60 - (int(eyes_time_up)%60)} minutes")
         
         # stope program for 1 sec to for better console output
         time.sleep(1)
