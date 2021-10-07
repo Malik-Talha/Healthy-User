@@ -70,7 +70,7 @@ def start_alarm(water_time, eyes_time, water_alarm_file, eyes_alarm_file):
 
 if __name__ == '__main__':
 
-    print("Welcome to the healthy programmer system created by Talha Murtaza.")
+    print("Welcome to the healthy user system created by Talha Murtaza.")
     print("\nThe alarm for water will ring after every 45 minutes")
     print("The alarm for eye movement will ring after every 15 minutes\n\noptions:")
     # default total time (in seconds) after the alarm should ring
@@ -114,7 +114,7 @@ if __name__ == '__main__':
             clrscr()
             print("Warning! Before entering the name of file including"
                   "its extension, please make sure that the file is available in "
-                  "the healthy programmer system's directory.")
+                  "the healthy user system's directory.")
             print("\n")
             name = input("Enter the name of audio file including extension: ")
             if name in os.listdir():
@@ -126,9 +126,9 @@ if __name__ == '__main__':
                 input()
         elif choice == 5:
             clrscr()
-            print("Warning! Before entering the name of file with include"
+            print("Warning! Before entering the name of file including"
                   "its extension, please make sure that the file is available in "
-                  "the healthy programmer system's directory.")
+                  "the healthy user system's directory.")
             print("\n")
             name = input("Enter the name of audio file including extension: ")
             if name in os.listdir():
