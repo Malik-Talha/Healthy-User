@@ -1,5 +1,5 @@
 # Healthy User (Reminder)
-This console based reminder to remind user to drink a glass of water and do eyes movement.
+A console based reminder to remind user to drink a glass of water and do eyes movement.
 
 ## External Modules used (names)
 pygame
